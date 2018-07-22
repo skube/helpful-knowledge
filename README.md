@@ -19,11 +19,11 @@ These files are usually kept inside a hidden directory in your home directory (i
 $ ls ~/.ssh/
 id_rsa     id_rsa.pub
 ```
-Like a 🔑, the `id_rsa` file is **not** to be shared.
-Conversly, the 🔒can be on multiple systems.
+Like a 🔑, the `id_rsa` file is **not** to be public or shared.
+Conversely, the 🔒can be on multiple systems.
 
 There's nothing particualarily special with the name `id_rsa`. 
-You can rename when generating keys (e.g. `id_rsa_home`, `id_rsa_coolsite`)
+You can rename when generating keys (e.g. `id_rsa_home`, `my_coolsite.pub`)
 
 ## Generating Keys
 
