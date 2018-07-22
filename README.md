@@ -2,7 +2,7 @@
 
 A general repository for stuff I always keep forgetting how to do
 
-# Using SSH Keys for Password_less_ Access
+# Creating and Using SSH Keys for Passwordless Experience
 
 ## Concept
 Using SSH Keys enables secure logins easily.
