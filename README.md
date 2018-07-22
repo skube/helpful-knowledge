@@ -133,7 +133,7 @@ To use `ssh-agent` and `ssh-add`, follow the steps below:
 ```sh
 eval `ssh-agent`
 ```
-> Note: make sure you use the backquote (`\``), under the tilde (`~`), rather than the single quote (`'`).
+> Note: make sure you use the backquote (\`) rather than the single quote (`'`).
 
 #### 2. Add the key to the agent:
 
