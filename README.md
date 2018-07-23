@@ -62,8 +62,9 @@ One way to easily copy the `*.pub` file to a remote server is to use the `ssh-co
 ```sh
 # If util available
 
-$ ssh-copy-id user@remotehost
+$ ssh-copy-id [-i name_of_key_file] user@remotehost
 ```
+> `-i` if you want to override the default identity file of `id_rsa`
 
 ### Method 2
 
