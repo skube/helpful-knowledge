@@ -62,7 +62,7 @@ Now you have two files `id_rsa.pub` 🔒 and `id_rsa` 🔑. The 🔒 must be pla
 One way to easily copy the `*.pub` file to a remote server is to use the `ssh-copy-id` util:
 
 ```sh
-# If util available
+# If util available, supply the _key_ if not using the default `id_rsa`
 
 $ ssh-copy-id [-i name_of_key_file] user@remotehost
 ```
