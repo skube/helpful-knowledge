@@ -107,13 +107,13 @@ ssh user@remoteserver
 
 ## Managing Multiple Keys
 
-It's not uncommon to use multiple keys. To facilitate this, you can use a `~/.ssh/config` file. 
+It's not uncommon to use multiple keys (not to mention it's easier to use a _friendly-name_). To facilitate this, you can use a `~/.ssh/config` file. 
 
 ```sh
-# contents of ~/.ssh/config
-Host _friendly-name_
-    User _user_
-    HostName _remoteserver.com_
+# contents of ~/.ssh/config (replace <...>) 
+Host <friendly-name>
+    User <user>
+    HostName <remoteserver.com>
     IdentityFile ~/.ssh/id_rsa_<note>
 
 # macOS Sierra no longer persists keys
