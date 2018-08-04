@@ -180,7 +180,7 @@ ssh-add
 
 ## Using rsync with `ssh` identity file 
 
-Setting up the `rsync` command
+Setting up the `rsync` command (trailing slashes seem to be important)
 ```sh
 rsync --progress -avz -e "ssh -i ~/.ssh/id_rsa_<note>" /path/to/local/dir/ <user>@<hostname>:/path/to/remote/dir/
 ```
