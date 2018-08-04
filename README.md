@@ -177,3 +177,28 @@ If you see a message "Agent admitted failure to sign using the key" then add you
 ```sh
 ssh-add
 ```
+
+## Using rsync with `ssh` identity file 
+
+Setting up the `rsync` command
+```sh
+rsync --progress -avz -e "ssh -i ~/.ssh/id_rsa_<note>" /path/to/local/dir/ <user>@<hostname>:/path/to/remote/dir/
+```
+
+Create a shell script for the synchronization
+
+```sh
+vi ~/bin/some-super-cool-name.sh
+```
+
+Add to the shell script file's contents:
+
+```sh
+#!/bin/bash <copy-the above rsync line here>
+```
+
+Add proper permissions
+
+```sh
+chmod 700 ~/bin/some-super-cool-name.sh
+```
