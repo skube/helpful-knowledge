@@ -13,7 +13,7 @@ Generally concerned with two files:
 - `id_rsa.pub` (public and shared on remote system)
 - `id_rsa`(private on local system)
 
-> The filesm—usually referred to as keys—can be likened to a physical padlock 🔒 (.pub) and key 🔑
+> The files—usually referred to as keys—can be likened to a physical padlock 🔒 (.pub) and key 🔑
 
 These files are usually kept inside a hidden directory in your home directory (i.e. `~/.ssh`)
 
